@@ -15,4 +15,4 @@ else if ( age >= 65) {
 }
 
 // stampa a video
-document.getElementById('ticket').innerHTML = calcDist + "&euro;";
+document.getElementById('ticket').innerHTML = calcDist.toFixed(2) + "&euro;";
