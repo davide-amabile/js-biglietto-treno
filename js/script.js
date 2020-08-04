@@ -13,4 +13,6 @@ if (age < 18) {
 else if ( age >= 65) {
     calcDist = (calcDist - (calcDist / 100 * 40 ));
 }
-console.log(calcDist);
+
+// stampa a video
+document.getElementById('ticket').innerHTML = calcDist + "&euro;";
